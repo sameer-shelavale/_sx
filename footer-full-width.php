@@ -14,7 +14,7 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
-	<div class="container">
+	<div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-12">
                 <!-- footer start-->
@@ -29,7 +29,7 @@
 					<?php do_action( '_sx_credits' ); ?>
 					<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', '_sx' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', '_sx' ), 'WordPress' ); ?></a>
 					<span class="sep"> | </span>
-                    <a class="credits" href="http://techrevol.com/" target="_blank" title="Themes and Plugins developed by Tech Revolution" alt="Themes and Plugins developed by Tech Revolution"><?php _e('Themes and Plugins developed by Tech Revolution.','_sx') ?> </a>
+                    <a class="credits" href="http://themekraft.com/" target="_blank" title="Themes and Plugins developed by Themekraft" alt="Themes and Plugins developed by Themekraft"><?php _e('Themes and Plugins developed by Themekraft.','_sx') ?> </a>
 				</div><!-- close .site-info -->
 
 			</div>
